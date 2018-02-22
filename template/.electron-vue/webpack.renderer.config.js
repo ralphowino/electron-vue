@@ -38,6 +38,7 @@ let rendererConfig = {
         use: {
           loader: 'eslint-loader',
           options: {
+            fix:true,
             formatter: require('eslint-friendly-formatter')
           }
         }

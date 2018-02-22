@@ -25,6 +25,7 @@ let mainConfig = {
         use: {
           loader: 'eslint-loader',
           options: {
+            fix:true,
             formatter: require('eslint-friendly-formatter')
           }
         }
